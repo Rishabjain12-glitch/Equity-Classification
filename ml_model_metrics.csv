@@ -1,0 +1,11 @@
+Metric,Justification for ML Model (Value vs. Growth)
+Revenue CAGR (3-Year),Primary feature for "Growth." High double-digit growth (>15%) signals Growth investing; low/flat growth signals Value or Mature companies.
+P/B Ratio (Price-to-Book),The standard academic definition of "Value." Low P/B (<1.5x) is a strong Value signal; High P/B (>5x) indicates Growth/Momentum.
+PEG Ratio,Discriminator feature. PEG < 1 identifies "Undervalued Growth" (GARP); PEG > 2 identifies "Expensive Growth." Helps separate hype from substance.
+ROE (Return on Equity),Quality filter. High ROE (>20%) typifies "Quality Growth." Low ROE often flags "Turnaround Value" or distress. Separates efficient compounders from capital destroyers.
+Piotroski F-Score,The "Value Trap" filter. A score of 8-9 validates a Value stock as healthy. A score < 4 indicates financial deterioration, helping the model avoid bad cheap stocks.
+Debt/Equity Ratio,Risk tolerance feature. Growth models often tolerate higher leverage (for expansion); Value models penalize it. Helps cluster companies by risk profile.
+Gross Margin,Moat proxy. High margins indicate pricing power (Quality/Growth). Low margins suggest commodity businesses (Cyclical Value).
+EV/EBITDA,Sector-neutral valuation. Low (<8x) = Value; High (>15x) = Growth. Essential for heavy industries (Infra/Utilities) where P/E is misleading due to depreciation.
+Free Cash Flow (FCF) Yield,Cash flow priority. High positive yield (>5%) is a key "Value" label. Negative yield is a hallmark of "Aggressive Growth" (reinvesting all cash).
+Altman Z-Score,Distress filter. Prevents the model from classifying near-bankrupt companies as "Value" just because they are cheap. Essential for safety.
