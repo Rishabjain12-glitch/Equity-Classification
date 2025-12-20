@@ -1,6 +1,4 @@
 # Equity-Classification
-Machine learning project for WiDS 5.0 that builds classifiers on fundamental financial ratios (not prices) to predict long-term equity investment decisions, comparing multiple ML models with conventional equity research methods.
-# WiDS 5.0 – Equity Classification [web:0]
 
 Machine learning project from WiDS 5.0 that builds classifiers on fundamental financial ratios of equities (rather than stock prices) to predict long‑term investment decisions. [web:0] The focus is on applying and interpreting multiple ML models in a finance context, not short‑term algorithmic trading. [web:0]
 
