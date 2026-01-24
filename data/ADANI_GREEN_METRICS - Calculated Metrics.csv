@@ -1,0 +1,55 @@
+VALUATION METRICS,FY25,FY24,Formula
+P/E Ratio,31.65x,~29.10x,Market Cap / PAT
+Forward P/E,26.38x,,Market Cap / Est. FY26 PAT (20% growth)
+PEG Ratio,0.44x,,P/E Ratio / EPS CAGR (71.2%)
+P/B Ratio,5.22x,,Stock Price / Book Value per Share
+EV/EBITDA,15.61x,,(Market Cap + Net Debt) / EBITDA
+,,,
+PROFITABILITY METRICS,FY25,FY24,Formula
+Gross Margin (EBITDA %),78.65%,78.33%,EBITDA / Total Revenue × 100
+Operating Margin (EBIT %),56.38%,54.49%,EBIT / Total Revenue × 100
+Net Profit Margin (%),17.85%,13.67%,PAT / Total Revenue × 100
+ROE (%) - Parent,11.91%,11.84%,Net Profit / Parent Equity × 100
+ROE (%) - Total Equity,8.87%,7.22%,Net Profit / Total Equity × 100
+ROA (%),1.80%,1.42%,Net Profit / Total Assets × 100
+ROCE (%),6.28%,6.23%,EBIT / Capital Employed × 100
+ROIC (%),2.48%,~2.30%,NOPAT / Invested Capital × 100
+,,,
+GROWTH METRICS (CAGR),FY25,FY24,Formula
+Revenue CAGR (4yr: FY21-25),34.57%,,(FY25/FY21)^(1/4) - 1
+Revenue CAGR (2yr: FY23-25),28.61%,,(FY25/FY23)^(1/2) - 1
+EBITDA CAGR (4yr: FY21-25),41.38%,,(FY25/FY21)^(1/4) - 1
+EPS CAGR (2yr: FY23-25),71.24%,,(FY25/FY23)^(1/2) - 1
+YoY Revenue Growth,+21.61%,+18.7%,(FY25 - FY24) / FY24 × 100
+YoY PAT Growth,+58.81%,+84.6%,(FY25 - FY24) / FY24 × 100
+,,,
+LEVERAGE & SOLVENCY,FY25,FY24,Formula
+Debt/Equity - Consolidated,3.46x,3.00x,Total Debt / Total Equity
+Debt/Equity - Parent,6.43x,5.93x,Total Debt / Parent Equity
+Net Debt (₹ Crores),"74,317","61,718",Total Debt - Cash & Equivalents
+Net Debt/EBITDA,8.43x,8.55x,Net Debt / EBITDA
+Debt/Capital (%),77.56%,78.3%,Total Debt / (Debt + Equity) × 100
+Interest Coverage Ratio,4.29x,3.89x,EBIT / Finance Costs
+,,,
+LIQUIDITY & EFFICIENCY,FY25,FY24,Formula
+Current Ratio,0.60x,0.58x,Current Assets / Current Liabilities
+Quick Ratio,0.60x,0.57x,(CA - Inventory) / CL
+OCF Ratio,0.78x,0.77x,OCF / Current Liabilities
+Asset Turnover,0.10x,0.10x,Revenue / Total Assets
+Inventory Turnover,12.0x,11.1x,COGS / Inventory
+Receivables Turnover,6.21x/year,13.2x/year,Revenue / Receivables
+Payables Turnover,4.0x,3.6x,COGS / Payables
+Working Capital Turnover,1.56x,1.40x,Revenue / Working Capital
+Cash Conversion Cycle (Days),52,50,DIO + DSO - DPO
+,,,
+CASH FLOW METRICS,FY25,FY24,Formula
+Operating Cash Flow (₹ Cr),"8,364","6,200",From Audited Cash Flow Statement
+Free Cash Flow (₹ Cr),"-11,463","-8,800",OCF - Capex
+FCF Margin (%),-102.24%,-95.45%,FCF / Revenue × 100
+OCF / Net Income,4.18x,4.92x,OCF / PAT
+,,,
+EARNINGS QUALITY & RISK,FY25,FY24,Formula
+Accruals Ratio (%),-2.18%,N/A,Accruals / Total Assets × 100
+Beneish M-Score,,N/A,Assessment of 8 indicators
+Piotroski F-Score,5/9 (Avg),N/A,Quality score (0-9)
+Altman Z-Score,1.08,~1.2,Financial health score

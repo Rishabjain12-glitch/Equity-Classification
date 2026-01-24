@@ -1,0 +1,59 @@
+# 📈 Equity Classification: Smart Investing with Machine Learning
+
+Welcome to the **Equity Classification** project. This tool is designed to move beyond the noise of daily stock price fluctuations and focus on what truly matters: **Fundamental Financial Health**.
+
+By using Machine Learning to analyze financial ratios, this project helps identify "Good" vs. "Bad" long-term investments with a level of precision that traditional "human-only" analysis often misses.
+
+---
+
+## 🎯 Project Goal
+The objective is simple: **Predict the long-term investment quality of a company.**
+
+Unlike algorithmic trading that looks for short-term price patterns, this project focuses on **fundamental ratios** (like ROE, Debt-to-Equity, and Profit Margins) to determine if a company is built for sustainable growth.
+
+---
+
+## 🚀 Key Features
+
+### 1. The "Safety First" Approach
+In the world of investing, losing money (a **False Positive**) is far worse than missing a gain. Our models are specifically tuned to minimize the risk of classifying a weak company as "Good."
+
+### 2. Machine Learning vs. Tradition
+We don't just use AI; we compare it against a **Conventional Rule-Based Model**.
+- **Conventional Logic**: Standard benchmarks (e.g., "Is ROE > 15%?").
+- **ML Advantage**: Our models find hidden, non-linear relationships between 25+ different financial metrics that the human eye might overlook.
+
+### 3. Comprehensive Model Suite
+We evaluate 10+ different types of models to find the best performer, including:
+- **Random Forests & Gradient Boosting** (Excellent for complex patterns)
+- **Neural Networks** (For deep data relationships)
+- **Logistic Regression & SVM** (For robust classification)
+
+---
+
+## 🛠 How It Works
+
+1.  **Data Ingestion**: Processes core financial statements (Income Statement & Balance Sheet).
+2.  **Smart Ratios**: Computes 25+ essential ratios covering Profitability, Liquidity, Solvency, and Efficiency.
+3.  **Feature Selection**: Automatically removes redundant data to focus on the real "Alpha" drivers.
+4.  **Optimization**: Uses Grid Search to fine-tune the best-performing models for maximum accuracy.
+
+---
+
+## 🔍 How to Analyze Your Own Company
+
+You can use the trained models in this project to check a company you're interested in:
+
+1.  **Gather Data**: You'll need standard values from the company's latest annual report (Revenue, Net Income, Assets, Liabilities, etc.).
+2.  **Compute Ratios**: Follow the formulas in the notebook to generate the ratios.
+3.  **Predict**: Run your company through our `best_model` to get a classification.
+
+> **Note**: This model is currently a demonstration. For real-world investing, it should be retrained on high-quality historical data from sources like Yahoo Finance or Bloomberg.
+
+---
+
+## 💡 Key Insights
+Our analysis consistently shows that **Profitability Ratios** (like ROE and Net Margin) combined with **Solvency Ratios** (Interest Coverage) are the strongest predictors of long-term success. Machine Learning allows us to see how these factors interact in ways that simple screening tools cannot.
+
+---
+*Created for WiDS 5.0 - Equity Classification Project (January 2026)*
