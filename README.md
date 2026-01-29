@@ -37,15 +37,7 @@ We evaluate 10+ different types of models to find the best performer, including:
 3.  **Feature Selection**: Automatically removes redundant data to focus on the real "Alpha" drivers.
 4.  **Optimization**: Uses Grid Search to fine-tune the best-performing models for maximum accuracy.
 
----
-
-## How to Analyze Your Own Company
-
-You can use the trained models in this project to check a company you're interested in:
-
-1.  **Gather Data**: You'll need standard values from the company's latest annual report (Revenue, Net Income, Assets, Liabilities, etc.).
-2.  **Compute Ratios**: Follow the formulas in the notebook to generate the ratios.
-3.  **Predict**: Run your company through our `best_model` to get a classification.
+THE END
 
 
 ---
