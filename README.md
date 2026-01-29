@@ -37,7 +37,6 @@ We evaluate 10+ different types of models to find the best performer, including:
 3.  **Feature Selection**: Automatically removes redundant data to focus on the real "Alpha" drivers.
 4.  **Optimization**: Uses Grid Search to fine-tune the best-performing models for maximum accuracy.
 
-THE END
 
 
 ---
