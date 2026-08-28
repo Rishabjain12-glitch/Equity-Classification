@@ -1,38 +1,43 @@
-# Equity-Classification
+# Equity Classification
 
-Machine learning project from WiDS 5.0 that builds classifiers on fundamental financial ratios of equities (rather than stock prices) to predict long‑term investment decisions.The focus is on applying and interpreting multiple ML models in a finance context, not short‑term algorithmic trading. [web:0]
+A machine-learning project that evaluates long-term equity classifications using fundamental financial metrics rather than short-term price movement.
 
-## Project Overview 
+## What this repository contains
 
-- Use fundamental analysis data (financial ratios) as features for equity classification.   
-- Train and compare multiple models (e.g., Decision Trees, LDA, Neural Networks) with different hyperparameters.  
-- Interpret model outputs and compare them with conventional equity selection methods. 
+- Raw and calculated metrics for an Adani Green Energy case study
+- A comparison pipeline for 10 classifiers
+- Five-fold stratified cross-validation
+- Accuracy, precision, recall, F1, ROC-AUC, and cross-validation summaries
+- Reproducible Python dependencies in `requirements.txt`
 
-## Objectives 
+## Models compared
 
-- Understand key financial ratios and their role in equity research.   
-- Learn best practices for training, validating, and comparing ML models on tabular financial data.   
-- Translate ML predictions into domain‑relevant insights for long‑term investing
+Logistic Regression, Decision Tree, Random Forest, Gradient Boosting, linear and RBF SVMs, Naive Bayes, Linear Discriminant Analysis, K-Nearest Neighbours, and a multilayer perceptron.
 
-## Tech Stack 
+## Run locally
 
-- Python  
-- NumPy, pandas, scikit‑learn (and optionally PyTorch/Keras for NNs)  
-- Jupyter Notebooks for experiments and analysis  
+```bash
+git clone https://github.com/Rishabjain12-glitch/Equity-Classification.git
+cd Equity-Classification
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python src/complete_analysis.py
+```
 
-## Getting Started
+On Windows, activate the environment with `.venv\\Scripts\\activate`.
 
-1. Clone this repository.  
-2. Install dependencies from `requirements.txt`.  
-3. Open the notebooks in `notebooks/` and run them in order (data prep → modeling → evaluation).  
+## Repository structure
 
-## Folder Structure (suggested)
+```text
+.
+├── src/                         # Model-training scripts
+├── ADANI_GREEN_METRICS*         # Case-study inputs and calculated metrics
+├── ml_model_metrics.csv         # Model evaluation output
+├── requirements.txt
+└── README.md
+```
 
-- `data/` – Raw and processed financial ratio datasets  
-- `notebooks/` – EDA, modeling, and evaluation notebooks  
-- `src/` – Reusable data loading, preprocessing, and model scripts  
-- `reports/` – Figures, tables, and summary notes  
+## Scope
 
-## Acknowledgements 
-
-This project is built as part of the WiDS 5.0 program, under the “Equity Classification” track focusing on the intersection of fundamental analysis and applied machine learning.
+This is an applied-learning project for comparing modelling approaches in fundamental equity analysis. It is not financial advice.
